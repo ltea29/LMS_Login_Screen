@@ -26,7 +26,9 @@ namespace LoginScreen
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Close();
+            login logout = new login();
+            logout.Show();
         }
 
         private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
